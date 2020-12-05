@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ChooseQuestionsActivity">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:fontFamily="@font/answer"
+        android:shadowColor="#A6141414"
+        android:shadowDx="4"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:text="НАСТРОЙКИ"
+        android:textAlignment="center"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="36sp"
+        ads:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        ads:layout_constraintBottom_toTopOf="@+id/btnBack"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/tvName">
+
+        <Button
+            android:id="@+id/btnChooseQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10pt"
+            android:background="@drawable/rect_round_white"
+            android:fontFamily="@font/answer"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="center|center_vertical"
+            android:text="&#9827; ВЫБОР ВОПРОСОВ &#9827;"
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnRule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10pt"
+            android:background="@drawable/rect_round_white"
+            android:fontFamily="@font/answer"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="center|center_vertical"
+            android:text="ПРАВИЛА ИГРЫ"
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10pt"
+            android:background="@drawable/rect_round_white"
+            android:fontFamily="@font/answer"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="center|center_vertical"
+            android:text="КОНТАКТЫ"
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnNoAds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10pt"
+            android:background="@drawable/rect_round_white"
+            android:fontFamily="@font/answer"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="center|center_vertical"
+            android:text="&#9829; УБРАТЬ РЕКЛАМУ &#9829;"
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2pt"
+        android:layout_weight="0"
+        android:background="@drawable/rect_round_white"
+        android:fontFamily="@font/answer"
+        android:text="НАЗАД"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="4dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

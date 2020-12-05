@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "902125785924",
+    "firebase_url": "https://answerfivesecond.firebaseio.com",
+    "project_id": "answerfivesecond",
+    "storage_bucket": "answerfivesecond.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902125785924:android:0c94cef994a649d117bd11",
+        "android_client_info": {
+          "package_name": "com.ghost2911.answerfivesecond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902125785924-als225l1drol26no6r7706p3gmiqo0tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghost2911.answerfivesecond",
+            "certificate_hash": "1ab9c1d36a74a2297c9ac3e1dcfd73f1813a45c6"
+          }
+        },
+        {
+          "client_id": "902125785924-v10u0hums3nbfor4eebge69p62dq0scq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBLvSfMBFwE1Rp1N1FAu9nq7oWa6r2XcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902125785924-v10u0hums3nbfor4eebge69p62dq0scq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

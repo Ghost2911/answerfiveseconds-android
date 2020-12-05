@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseQuestionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMainText"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/answer"
+            android:shadowColor="#A6141414"
+            android:shadowDx="4"
+            android:shadowDy="2"
+            android:shadowRadius="4"
+            android:text="ВЫБОР ВОПРОСОВ"
+            android:textAlignment="center"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="36sp" />
+
+        <ListView
+            android:id="@+id/lvQuestions"
+            style="@style/Widget.AppCompat.ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="@color/colorPrimaryDark"
+            android:fadeScrollbars="false"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:theme="@style/CustomTheme"
+            android:verticalScrollbarPosition="left" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2pt"
+                android:layout_weight="1"
+                android:background="@drawable/rect_round_white"
+                android:fontFamily="@font/answer"
+                android:text="СОХРАНИТЬ ВЫБОР"
+                android:textColor="@color/colorMainText"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2pt"
+                android:layout_weight="2"
+                android:background="@drawable/rect_round_white"
+                android:fontFamily="@font/answer"
+                android:text="ВСЕ"
+                android:textColor="@color/colorMainText"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ответь за 5 секунд</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3240084274946640/5619448609</string>
+    <string name="banner_test_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_id">ca-app-pub-3240084274946640~6266315863</string>
+    <string name="title_activity_choose_questions">Выбор вопросов</string>
+</resources>
